@@ -2,7 +2,7 @@ FastMCP实现MCP服务端和客户端。<br>
 演示服务端返回进度数据（Progress），演示工具执行中途向客户端请求补充信息（Elicitation）。
 
 ### 服务端：
-```python
+```
 import asyncio
 from fastmcp import FastMCP, Context
 from pydantic import BaseModel, Field
@@ -78,7 +78,7 @@ if __name__ == "__main__":
 ```
 
 ### 客户端：
-```python
+```
 from fastmcp import Client
 import asyncio
 from fastmcp.client.elicitation import ElicitResult
